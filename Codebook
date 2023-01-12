@@ -1,0 +1,38 @@
+Getting and Cleaning Data Final Project Codebook
+
+Describes the variables, the data, and work performed to clean up the data.
+
+=====================================================================================================================
+-DATA-
+=====================================================================================================================
+Human Activity Recognition Using Smartphones Dataset
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+
+Experiments were carried out on a group of 30 volunteers between the ages 19-48 by. Each person performed 6 activities 
+while wearing a smartphone (Samsung Galaxy S II) on the waist. Using the phones embedded accelerometer and gyroscope, 
+3-axial linear acceleration and 3-axial angular and 3-axial angular velocity at a constant rate of 50Hz.
+70% of the volunteers were selected for generating training data and 30% for test data. 
+
+-Test group data-
+X_test.txt: Includes observations for each subject-activity on 561 time and frequency domain variables. 
+Y_test.txt: Each row identifies the activity performed using a class label.
+subject_test.txt: Each row identifies the subject who performed the activity for each window sample. 1-30.
+
+-Training group data-
+X_train.txt:Includes observations for each subject-activity on 561 time and frequency domain variables.
+Y_train.txt: Each row identifies the activity performed using a class label.
+subject_train.txt: Each row identifies the subject who performed the activity for each window sample. 1-30.
+
+-Supplementary-
+features.txt: A 561 vector with time and frequency domain variable names.
+activity_labels.txt: Links the class labels in the Y files with their activity name
+
+======================================================================================================================
+-Variables-
+======================================================================================================================
+SubjectID = identification number for each subject 
+  Integer type, ranges from 1-30
+Activity = activities completed by each subject as part of the experiment
+  Character type, activities include: Laying, Sitting, Standing, Walking, Walking_Downstairs, Walking_Upstairs
+
