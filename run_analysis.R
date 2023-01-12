@@ -42,7 +42,7 @@ y_train<-rename(y_train, "Activity" = V1)
 # Merge data frames
 merged_test<-cbind(x_test, y_test, subject_test)
 merged_train<-cbind(x_train, y_train, subject_train)
-combined<-rbind(check, check2)
+combined<-rbind(merged_test, merged_train)
 
 
 # Extract measurements on the mean and standard deviation for each measurement
