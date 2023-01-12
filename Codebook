@@ -40,99 +40,142 @@ Activity = activities completed by each subject as part of the experiment
 Some of the variables include X,Y,Z referring to either the X, Y, or Z axis. All are numeric type.*
 
 Average time of body accerlation at the X, Y, and Z axis
-body_accelX_time_mean
-body_accelY_time_mean
-body_accelZ_time_mean
+  body_accelX_time_mean
+  body_accelY_time_mean
+  body_accelZ_time_mean
 
 Standard deviation of the time of body accerlation at the X, Y, and Z axis
-body_accelX_time_std
-body_accelY_time_std
-body_accelZ_time_std
+  body_accelX_time_std
+  body_accelY_time_std
+  body_accelZ_time_std
 
 Average time of graviational acceleration at the X, Y, and Z axis
-gravity_accelX_time_mean
-gravity_accelY_time_mean
-gravity_accelZ_time_mean
+  gravity_accelX_time_mean
+  gravity_accelY_time_mean
+  gravity_accelZ_time_mean
 
 Standarad deviation of the time of graviational acceleration at the X, Y, and Z axis
-gravity_accelX_time_std
-gravity_accelY_time_std
-gravity_accelZ_time_std
+  gravity_accelX_time_std
+  gravity_accelY_time_std
+  gravity_accelZ_time_std
 
 Average time of body jerk acceleration at the X, Y, and Z axis
-bodyjerk_accelX_time_mean
-bodyjerk_accelY_time_mean
-bodyjerk_accelZ_time_mean
+  bodyjerk_accelX_time_mean
+  bodyjerk_accelY_time_mean
+  bodyjerk_accelZ_time_mean
 
 Standard deviation of the time of body jerk acceleration at the X, Y, and Z axis
-bodyjerk_accelX_time_std
-bodyjerk_accelY_time_std
-bodyjerk_accelZ_time_std
+  bodyjerk_accelX_time_std
+  bodyjerk_accelY_time_std
+  bodyjerk_accelZ_time_std
 
 Average time of the angular velocity measured by the gyroscope at the X, Y, and Z axis
-body_gyroX_time_mean
-body_gyroY_time_mean
-body_gyroZ_time_mean
+  body_gyroX_time_mean
+  body_gyroY_time_mean
+  body_gyroZ_time_mean
 
 Standard deviation of the time of the angular velocity measured by the gyroscope at the X, Y, and Z axis
-body_gyroX_time_std
-body_gyroY_time_std
-body_gyroZ_time_std
+  body_gyroX_time_std
+  body_gyroY_time_std
+  body_gyroZ_time_std
 
 Average time of body jerk measured by the gyroscope at the X, Y, and Z axis
-bodyjerk_gyroX_time_mean
-bodyjerkY_gyro_time_mean
-bodyjerkZ_gyro__timemean
+  bodyjerk_gyroX_time_mean
+  bodyjerkY_gyro_time_mean
+  bodyjerkZ_gyro__timemean
 
 Standard deviation of the time of body jerk measured by the gyroscope at the X, Y, and Z axis
-bodyjerkX_gyro_time_std
-bodyjerk_gyroY_time_std
-bodyjerk_gyroZ_time_std
+  bodyjerkX_gyro_time_std
+  bodyjerk_gyroY_time_std
+  bodyjerk_gyroZ_time_std
 
-body_accel_magnitude_time_mean
-body_accel_magnitude_time_std
+Average time of the magnitude of body accerleration 
+  body_accel_magnitude_time_mean
 
-bodyjerk_accel_magnitude__time_mean
-bodyjerk_accel_magnitude_time_std
+Standard deviation of the time of the magnitude of body accerleration 
+  body_accel_magnitude_time_std
 
-body_gyro_magnitude_time_mean
-body_gyro_magnitude_time_std
+Average time of the magnitude of body jerk acceleration 
+  bodyjerk_accel_magnitude__time_mean
 
-bodyjerk_gyro_magnitude_time_mean
-bodyjerk_gyro_magnitude_time_std
+Standard deviation of the time of the magnitude of body jerk acceleration 
+  bodyjerk_accel_magnitude_time_std
 
-body_accelX_freq_mean
-body_accelY_freq_mean
-body_accelZ_freq_mean
-body_accelX_freq_std
-body_accelY_freq_std
-body_accelZ_freq_std
+Average time of the magnitude of the angular velocity measured by the gyroscope 
+  body_gyro_magnitude_time_mean
 
-bodyjerk_accelX_freq_mean
-bodyjerk_accelY_freq_mean
-bodyjerk_accelZ_freq_mean
-bodyjerk_accelX_freq_std
-bodyjerk_accelY_freq_std
-bodyjerk_accelZ_freq_std
+Standard deviation of the time of the magnitude of the angular velocity measured by the gyroscope
+  body_gyro_magnitude_time_std
 
-body_gyroX_freq_mean
-body_gyroY_freq_mean
-body_gyroZ_freq_mean
-body_gryoX_freq_std
-body_gryoY_freq_std
-body_gryoZ_freq_std
+Average time of the magnitude of body jerk measured by the gyroscope
+  bodyjerk_gyro_magnitude_time_mean
 
-body_accel_magnitude_freq_mean
-body_accel_magnitude_freq_std
+Standard deviation of the time of the magnitude of body jerk measured by the gyroscope
+  bodyjerk_gyro_magnitude_time_std
 
-bodyjerk_accel_magnitude_freq_mean
+Average frequency of body accerlation at the X, Y, and Z axis
+  body_accelX_freq_mean
+  body_accelY_freq_mean
+  body_accelZ_freq_mean
+
+Standard deviation of the frequency of body accerlation at the X, Y, and Z axis
+  body_accelX_freq_std
+  body_accelY_freq_std
+  body_accelZ_freq_std
+
+Average frequency of body jerk acceleration at the X, Y, and Z axis
+  bodyjerk_accelX_freq_mean
+  bodyjerk_accelY_freq_mean
+  bodyjerk_accelZ_freq_mean
+  
+Standard deviation of the frequency of body jerk acceleration at the X, Y, and Z axis
+  bodyjerk_accelX_freq_std
+  bodyjerk_accelY_freq_std
+  bodyjerk_accelZ_freq_std
+  
+Average frequency of the angular velocity measured by the gyroscope at the X, Y, and Z axis
+  body_gyroX_freq_mean
+  body_gyroY_freq_mean
+  body_gyroZ_freq_mean
+  
+Standard deviation of the frequency of the angular velocity measured by the gyroscope at the X, Y, and Z axis
+  body_gryoX_freq_std
+  body_gryoY_freq_std
+  body_gryoZ_freq_std
+
+Average frequency of the magnitude of body accerleration 
+  body_accel_magnitude_freq_mean
+  
+Standard deviation of the frequency of the magnitude of body accerleration 
+  body_accel_magnitude_freq_std
+
+
+Average frequency of the magnitude of body jerk acceleration 
+  bodyjerk_accel_magnitude_freq_mean
+
+Standard deviation of the frequency of the magnitude of body jerk acceleration 
 bodyjerk_accel_magnitude_freq_std
 
+
+Average frequency of the magnitude of the angular velocity measured by the gyroscope 
 body_gryo_magnitude_freq_mean
-body_gryo_magnitude_freq_std
 
-bodyjerk_gyro_magnitude_freq_mean
-bodyjerk_gyro_magnitude_freq_std
+
+Standard deviation of the frequency of the magnitude of the angular velocity measured by the gyroscope
+  body_gryo_magnitude_freq_std
+
+Average frequency of body jerk measured by the gyroscope at the X, Y, and Z axis
+  bodyjerk_gyro_magnitude_freq_mean
+
+Standard deviation of the frequency of the magnitude of body jerk measured by the gyroscope  
+  bodyjerk_gyro_magnitude_freq_std
   
- 
-
+======================================================================================================================
+-Cleaning up the data-
+======================================================================================================================
+After reading the data files in, they were merged together by first combining columns of the test and train datasets 
+separately and then combining the rows of the two groups.
+A new data frame was created that only included the SubjectIDs, Activities, and means and standard deviations of each
+experimental measurement. 
+Column names were added to the measurements.
+Data were then grouped by Subject Id and Activity and each column was averaged to make one row per SubjectID-Activity pair.
