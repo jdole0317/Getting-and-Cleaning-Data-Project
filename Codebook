@@ -36,3 +36,103 @@ SubjectID = identification number for each subject
 Activity = activities completed by each subject as part of the experiment
   Character type, activities include: Laying, Sitting, Standing, Walking, Walking_Downstairs, Walking_Upstairs
 
+*Notes on the following variables: the value for each variable is the average for each Subject-Activity combination on that measurment.
+Some of the variables include X,Y,Z referring to either the X, Y, or Z axis. All are numeric type.*
+
+Average time of body accerlation at the X, Y, and Z axis
+body_accelX_time_mean
+body_accelY_time_mean
+body_accelZ_time_mean
+
+Standard deviation of the time of body accerlation at the X, Y, and Z axis
+body_accelX_time_std
+body_accelY_time_std
+body_accelZ_time_std
+
+Average time of graviational acceleration at the X, Y, and Z axis
+gravity_accelX_time_mean
+gravity_accelY_time_mean
+gravity_accelZ_time_mean
+
+Standarad deviation of the time of graviational acceleration at the X, Y, and Z axis
+gravity_accelX_time_std
+gravity_accelY_time_std
+gravity_accelZ_time_std
+
+Average time of body jerk acceleration at the X, Y, and Z axis
+bodyjerk_accelX_time_mean
+bodyjerk_accelY_time_mean
+bodyjerk_accelZ_time_mean
+
+Standard deviation of the time of body jerk acceleration at the X, Y, and Z axis
+bodyjerk_accelX_time_std
+bodyjerk_accelY_time_std
+bodyjerk_accelZ_time_std
+
+Average time of the angular velocity measured by the gyroscope at the X, Y, and Z axis
+body_gyroX_time_mean
+body_gyroY_time_mean
+body_gyroZ_time_mean
+
+Standard deviation of the time of the angular velocity measured by the gyroscope at the X, Y, and Z axis
+body_gyroX_time_std
+body_gyroY_time_std
+body_gyroZ_time_std
+
+Average time of body jerk measured by the gyroscope at the X, Y, and Z axis
+bodyjerk_gyroX_time_mean
+bodyjerkY_gyro_time_mean
+bodyjerkZ_gyro__timemean
+
+Standard deviation of the time of body jerk measured by the gyroscope at the X, Y, and Z axis
+bodyjerkX_gyro_time_std
+bodyjerk_gyroY_time_std
+bodyjerk_gyroZ_time_std
+
+body_accel_magnitude_time_mean
+body_accel_magnitude_time_std
+
+bodyjerk_accel_magnitude__time_mean
+bodyjerk_accel_magnitude_time_std
+
+body_gyro_magnitude_time_mean
+body_gyro_magnitude_time_std
+
+bodyjerk_gyro_magnitude_time_mean
+bodyjerk_gyro_magnitude_time_std
+
+body_accelX_freq_mean
+body_accelY_freq_mean
+body_accelZ_freq_mean
+body_accelX_freq_std
+body_accelY_freq_std
+body_accelZ_freq_std
+
+bodyjerk_accelX_freq_mean
+bodyjerk_accelY_freq_mean
+bodyjerk_accelZ_freq_mean
+bodyjerk_accelX_freq_std
+bodyjerk_accelY_freq_std
+bodyjerk_accelZ_freq_std
+
+body_gyroX_freq_mean
+body_gyroY_freq_mean
+body_gyroZ_freq_mean
+body_gryoX_freq_std
+body_gryoY_freq_std
+body_gryoZ_freq_std
+
+body_accel_magnitude_freq_mean
+body_accel_magnitude_freq_std
+
+bodyjerk_accel_magnitude_freq_mean
+bodyjerk_accel_magnitude_freq_std
+
+body_gryo_magnitude_freq_mean
+body_gryo_magnitude_freq_std
+
+bodyjerk_gyro_magnitude_freq_mean
+bodyjerk_gyro_magnitude_freq_std
+  
+ 
+
