@@ -3,9 +3,9 @@ Final project for getting and cleaning data course
 
 This README describes each step of the script.
 
-============================================================
+==============================
 STEP 1: Read in the data
-============================================================
+==============================
 Using the read.table() function, each text data file was read into R
 Data files include:
 X_test.txt
