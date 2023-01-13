@@ -17,7 +17,7 @@ subject_train.txt
 
 The file features.txt was also read into R for reference.
 
-============================================================
+
 STEP 2: Column names for 4 files
 ============================================================
 V1 in the subject files was renamed to SubjectID
