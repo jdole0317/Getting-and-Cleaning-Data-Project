@@ -3,9 +3,9 @@ Final project for getting and cleaning data course
 
 This README describes each step of the script.
 
-============================================================================================================
+============================================================
 STEP 1: Read in the data
-============================================================================================================
+============================================================
 Using the read.table() function, each text data file was read into R
 Data files include:
 X_test.txt
@@ -17,9 +17,9 @@ subject_train.txt
 
 The file features.txt was also read into R for reference.
 
-============================================================================================================
+============================================================
 STEP 2: Column names for 4 files
-============================================================================================================
+============================================================
 V1 in the subject files was renamed to SubjectID
 V1 in the y files was renamed to Activity
 
