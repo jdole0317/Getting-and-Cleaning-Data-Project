@@ -89,3 +89,4 @@ df2<-df%>%
   group_by(SubjectID, Activity)%>%
   summarize_all("mean")
 
+write.csv(df2, "finalproject.csv")
